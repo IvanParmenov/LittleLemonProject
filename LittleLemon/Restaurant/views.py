@@ -30,3 +30,5 @@ class BookingViewSet(viewsets.ModelViewSet):
 
 def index(request: HttpRequest) -> HttpResponse:
     return render(request, 'index.html', {})    
+
+

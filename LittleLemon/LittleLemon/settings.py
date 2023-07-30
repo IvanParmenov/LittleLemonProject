@@ -147,4 +147,9 @@ REST_FRAMEWORK = {
         "rest_framework.renderers.BrowsableAPIRenderer",
         #"rest_framework_xml.renderers.XMLRenderer",
     ],
+    'DATE_INPUT_FORMATS': ["%Y-%m-%d %H", ],
+    'DATETIME_FORMAT': '%Y-%m-%d %H',
+    'DATE_FORMAT': '%Y-%m-%d %H'
 }
+
+
